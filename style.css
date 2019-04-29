@@ -1,0 +1,30 @@
+
+body {
+  margin-top: 0px;
+font-family: 'Courier New', Courier, monospace;
+	line-height: 1.75em;
+	font-size: 40px;
+	background-color: #000;
+  color: #20C20E;
+}
+
+
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+.cursor {
+    animation: blink 0.7s infinite;
+}
